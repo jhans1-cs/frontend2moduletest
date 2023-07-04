@@ -1,0 +1,80 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(120deg, #6dd5ed, #f1f5f8);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    width: 400px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    align-content: center;
+    text-align: center;
+  }
+  
+  form input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  form button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  #searchInput {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  #studentTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #studentTable th,
+  #studentTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  #studentTable th {
+    background-color: #f2f2f2;
+  }
+  
+  #studentTable td button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  #studentTable td button:first-child {
+    background-color: #2196F3;
+  }
+  
+  #studentTable td button:hover {
+    background-color: #555;
+  }
+  
